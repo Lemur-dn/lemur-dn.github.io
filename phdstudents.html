@@ -12,8 +12,33 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
-.coloresfondo {background:#b0c4de}
+.coloresfondo 
+{
+  background-image: url('/img/network-bckg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .colorebarra {background:#6495ed; color: white}
+.image-text-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.image-text-container img {
+    width: 18%;
+    margin-right: 10px;
+}
+.image-text-container p {
+    flex-grow: 1;
+}
+.text-and-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes the button to the bottom */
+    height: 100%; /* Full height of the container */
+}
 </style>
 </head>
 <body>
@@ -54,7 +79,111 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>List of the involved PhD Students</h1>
-      <h5 class="w3-padding-32">This page will be updated as the selection process takes place.
+      <h5 class="w3-padding-32">
+        <div class="image-text-container">
+          <img src="/img/castellano.jpg" width=20% alt="Rodrigo Castellano Ontiveros">
+          <div class="text-and-button">
+            <b>Rodrigo Castellano Ontiveros</b>Università degli Studi di Siena
+            <h6>
+            Multiple Representation Models in the context of Neural Symbolic Methods.<br>
+            <i>Neuro-Symboic AI &middot; Explainable AI &middot; Logic</i><br>
+            </h6>
+            <a href="https://www.linkedin.com/in/rodrigo-castellano-ontiveros-520b1a133/" target="_blank">
+              <img src="/img/linkedin-icon.png" alt="LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+          </div>
+        </div>
+        <div class="image-text-container">
+          <img src="/img/grillo.jpg" width=20% alt="Marco Grillo">
+          <div class="text-and-button"> 
+            <b>Marco Grillo</b>Poznan University of Technology
+            <h6>
+            Theoretical Foundations of Learning from Multiple Representations.<br>
+            <i>Theoretical approach &middot; Data analysis &middot; New algorithms</i><br>
+            </h6>
+            <a href="https://it.linkedin.com/in/marco-grillo-46520098" target="_blank">
+              <img src="/img/linkedin-icon.png" alt="LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+          </div>
+        </div>
+        <div class="image-text-container">
+          <img src="/img/hoppe.jpg" width=20% alt="Fabian Hoppe">
+          <div class="text-and-button"> 
+            <b>Fabian Hoppe</b>Vrije Universiteit Amsterdam
+            <h6>
+            Combining Large Language Models and Knowledge Graphs.<br>
+            <i>Neuro-symbolic AI &middot; Large Language Models &middot; Knowledge Graphs</i><br>
+            </h6>
+            <a href="https://www.linkedin.com/in/fab-hop/" target="_blank">
+              <img src="/img/linkedin-icon.png" alt="LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+          </div>
+        </div>
+        <div class="image-text-container">
+          <img src="/img/jiao.jpg" width=20% alt="Ying Jiao">
+          <div class="text-and-button"> 
+            <b>Ying Jiao</b>KU Leuven
+            <h6>
+            LMR via Neural Probabilistic Logic programming.<br>
+            <i>Neuro-symbolic &middot; Approximate Inference &middot; Neuro-symbolic Generative Models</i><br>
+            </h6>
+            <a href="https://www.linkedin.com/in/ying-jiao-7a1797250/" target="_blank">
+              <img src="/img/linkedin-icon.png" alt="LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+          </div>
+        </div>
+        <div class="image-text-container">
+          <img src="/img/kamdem.jpg" width=20% alt="Louis Mozart Kamdem Teyou">
+          <div class="text-and-button"> 
+            <b>Louis Mozart Kamdem Teyou</b>Universität Paderborn
+            <h6>
+            Embedding Knowledge Graphs into Function Spaces.<br>
+            <i>Multiple Representations &middot; Knowledge Graphs &middot; Function Spaces</i><br>
+            </h6>
+            <a href="https://www.linkedin.com/in/mozart-louis/" target="_blank">
+              <img src="/img/linkedin-icon.png" alt="LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+          </div>
+        </div>
+        <div class="image-text-container">
+          <img src="/img/roberts.jpeg" width=20% alt="Isaac Jerome Roberts">
+          <div class="text-and-button"> 
+            <b>Isaac Jerome Roberts</b>Bielefeld University
+            <h6>
+            Multiple Representation Learning in Visualization.<br>
+            <i>Explainable AI &middot; Dimensionality Reduction &middot; Embedding Spaces</i><br>
+            </h6>
+            <a href="https://www.linkedin.com/in/isaac-roberts-4b2bb3158" target="_blank">
+              <img src="/img/linkedin-icon.png" alt="LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+          </div>
+        </div>
+        <div class="image-text-container">
+          <img src="/img/shimillas.jpg" width=20% alt="Charalampos Shimillas">
+          <div class="text-and-button"> 
+            <b>Charalampos Shimillas</b>University of Cyprus
+            <h6>
+            LMR for Fault Isolation in Critical Infrastructure Systems.<br>
+            <i>Deep Learning &middot; Online learning &middot; Time series &middot; Critical Infrastructures (CIs) &middot; Fault isolation</i><br>
+            </h6>
+            <a href="https://www.linkedin.com/in/marios-shimillas-664047216/" target="_blank">
+              <img src="/img/linkedin-icon.png" alt="LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+          </div>
+        </div>
+        <div class="image-text-container">
+          <img src="/img/sokli.jpg" width=20% alt="Effrosyni Sokli">
+          <div class="text-and-button">
+            <b>Effrosyni Sokli</b>Università degli Studi di Milano-Bicocca
+            <h6>
+            Learning with Multiple Representations in Search and Recommendation.<br>
+            <i>Information Retrieval &middot; Knowledge Representation &middot; Natural Language Processing (NLP)</i><br>
+            </h6>
+            <a href="https://www.linkedin.com/in/fay-sokli" target="_blank">
+              <img src="/img/linkedin-icon.png" alt="LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+          </div>
+        </div>
       </h5>
 <!--      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
